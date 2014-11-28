@@ -2,6 +2,10 @@
 +<html>
 +<head>
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="what-ive-learned" type="boolean" value="false" -->
+<!-- TemplateParam name="restaurants" type="boolean" value="false" -->
+<!-- TemplateParam name="get-connected" type="boolean" value="false" -->
+<!-- TemplateParam name="brands-a-z" type="boolean" value="false" -->
 +<meta charset="UTF-8">
 +<!-- TemplateBeginEditable name="doctitle" -->
 +<title>Gluten-Free College Girl</title>
@@ -19,21 +23,35 @@
 +  </tr>
 +</table><table>
 +  <tr>
-+    <td><ul>
-  <li>Tricks of the Trade</li></ul><ul>
-    <li>My Favorites</li>
-</ul>
-  <ul>
-    <li>Twitter</li>
-    <li>Instagram</li>
-    <li>Pintrest  </li>
-  </ul>
-  <ul>
-    <li>A-I</li>
-    <li>J-R</li>
-    <li>S-Z</li>
-</ul></td>
-+    <td><!-- TemplateBeginEditable name="Page Content" --><!-- TemplateEndEditable --></td>
++    <td><!-- TemplateBeginIf cond="_document['what-ive-learned']" -->
+  <p><a href="../what-ive-learned/tricks-of-the-trade.html">Tricks of the Trade</a></p>
+<!-- TemplateEndIf --><!-- TemplateBeginIf cond="restaurants" -->
+      <a href="../restaurants/my-favorites.html">My Favorites</a>
+      <!-- TemplateEndIf -->
+  
+ 
+    <!-- TemplateBeginIf cond="_document['get-connected']" -->
+      <p><a href="../get-connected/second level/twitter.html">Twitter</a></p>
+      <p>
+        <a href="../get-connected/second level/instagram.html">Instagram</a></p>
+      <p>
+        <a href="../get-connected/second level/pintrest.html">Pintrest </a></p>
+      <!-- TemplateEndIf -->
+  
+  
+    <!-- TemplateBeginIf cond="_document['brands-a-z']" -->
+      <p><a href="../brands-a-z/second-level/a-i.html">A-I</a> </p>
+      <p> 
+        <a href="../brands-a-z/second-level/j-r.html">J-R</a> </p>
+      <p> 
+        <a href="../brands-a-z/second-level/s-z.html">S-Z</a> </p> 
+      <!-- TemplateEndIf -->
+  </td>
++    <td><!-- TemplateBeginEditable name="Page Content" -->
+  <h1>&nbsp;</h1>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<!-- TemplateEndEditable --></td>
 +  </tr>
 +</table><table>
 +  <tr>
