@@ -6,6 +6,13 @@
 <!-- TemplateParam name="restaurants" type="boolean" value="false" -->
 <!-- TemplateParam name="get-connected" type="boolean" value="false" -->
 <!-- TemplateParam name="brands-a-z" type="boolean" value="false" -->
+<!-- TemplateParam name="banner-home" type="boolean" value="false" -->
+<!-- TemplateParam name="about-me" type="boolean" value="false" -->
+<!-- TemplateParam name="brands-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="restaurant-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="what-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="what-ive-learned-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="connected-banner" type="boolean" value="false" -->
 +<meta charset="UTF-8">
 +<!-- TemplateBeginEditable name="doctitle" -->
 +<title>Gluten-Free College Girl</title>
@@ -14,9 +21,9 @@
 +<!-- TemplateEndEditable -->
 +</head>
 +
-+<body><table>
++<body style=""><table>
 +  <tr>
-+    <td>[Banner]</td>
++    <td><!-- TemplateBeginIf cond="_document['banner-home']" --><img src="../images/banner-two.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['about-me']" --><img src="../images/about-me-banner.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['brands-banner']" --><img src="../images/brands-banner-three.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['restaurant-banner']" --><img src="../images/restuarant-banner-real.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['what-ive-learned-banner']" --><img src="../images/what-ive-learned-banner.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['connected-banner']" --><img src="../images/connected-banner.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --></td>
 +  </tr>
 +  <tr>
 +    <td><a href="../index.html">Home</a> |<a href="../about-me/index.html"> About Me</a> | <a href="../brands-a-z/index.html">Brands A-Z</a> | <a href="../restaurants/index.html">Restaurants</a> | <a href="../what-ive-learned/">What I've Learned</a> | <a href="../get-connected/index.html">Get Connected</a></td>
@@ -40,7 +47,7 @@
   
   
     <!-- TemplateBeginIf cond="_document['brands-a-z']" -->
-      <p><a href="../brands-a-z/second-level/a-i.html">A-I</a> </p>
+      <p><a href="../brands-a-z/second-level/a-i.html">A-I </a></p>
       <p> 
         <a href="../brands-a-z/second-level/j-r.html">J-R</a> </p>
       <p> 
@@ -53,12 +60,7 @@
   <p>&nbsp;</p>
 <!-- TemplateEndEditable --></td>
 +  </tr>
-+</table><table>
-+  <tr>
-+    <td><p>table 1</p></td>
-+    <td><p>table 2</p></td>
-+    <td>[References]</td>
-+  </tr>
 +</table>
+<p>&nbsp;</p>
 </body>
 +</html>
