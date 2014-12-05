@@ -1,1 +1,21 @@
-body {background-color:#454BEE};
+body {
+	background-color:#CC99FF;
+}
+.secondary-nav {
+	width: 20%;
+	background-color: #CCF;
+	vertical-align: top;
+}
+.content {
+	background-color: #CCF;
+	width: 80%;
+}
+.primarynav a {
+	background-color: #F6C;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 20px;
+}
+.primarynav a:hover {
+	background-color: #FFC;
+}

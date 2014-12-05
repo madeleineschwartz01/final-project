@@ -1,6 +1,6 @@
-+<!DOCTYPE HTML>
-+<html>
-+<head>
+<!DOCTYPE HTML>
+<html>
+<head>
 <link href="../styles.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="what-ive-learned" type="boolean" value="false" -->
 <!-- TemplateParam name="restaurants" type="boolean" value="false" -->
@@ -13,24 +13,25 @@
 <!-- TemplateParam name="what-banner" type="boolean" value="false" -->
 <!-- TemplateParam name="what-ive-learned-banner" type="boolean" value="false" -->
 <!-- TemplateParam name="connected-banner" type="boolean" value="false" -->
-+<meta charset="UTF-8">
-+<!-- TemplateBeginEditable name="doctitle" -->
-+<title>Gluten-Free College Girl</title>
-+<!-- TemplateEndEditable -->
-+<!-- TemplateBeginEditable name="head" -->
-+<!-- TemplateEndEditable -->
-+</head>
-+
-+<body style=""><table>
-+  <tr>
-+    <td><!-- TemplateBeginIf cond="_document['banner-home']" --><img src="../images/banner-two.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['about-me']" --><img src="../images/about-me-banner.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['brands-banner']" --><img src="../images/brands-banner-three.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['restaurant-banner']" --><img src="../images/restuarant-banner-real.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['what-ive-learned-banner']" --><img src="../images/what-ive-learned-banner.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['connected-banner']" --><img src="../images/connected-banner.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --></td>
-+  </tr>
-+  <tr>
-+    <td><a href="../index.html">Home</a> |<a href="../about-me/index.html"> About Me</a> | <a href="../brands-a-z/index.html">Brands A-Z</a> | <a href="../restaurants/index.html">Restaurants</a> | <a href="../what-ive-learned/">What I've Learned</a> | <a href="../get-connected/index.html">Get Connected</a></td>
-+  </tr>
-+</table><table>
-+  <tr>
-+    <td><!-- TemplateBeginIf cond="_document['what-ive-learned']" -->
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Gluten-Free College Girl</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body style=""><table width="1000">
+  <tr>
+    <td><!-- TemplateBeginIf cond="_document['banner-home']" --><img src="../images/banner-two.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['about-me']" --><img src="../images/about-me-banner.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['brands-banner']" --><img src="../images/brands-banner-three.jpg" width="1000" height="200" alt=""/> <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['restaurant-banner']" --><img src="../images/restuarant-banner-real.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['what-ive-learned-banner']" --><img src="../images/what-ive-learned-banner.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['connected-banner']" --><img src="../images/connected-banner.jpg" width="1000" height="200" alt=""/><!-- TemplateEndIf --></td>
+  </tr>
+  <tr>
+    <td class="primarynav"><p><a href="../index.html">Home</a> <a href="../about-me/index.html"> About Me</a> <a href="../brands-a-z/index.html">Brands A-Z</a> <a href="../restaurants/index.html">Restaurants</a> <a href="../what-ive-learned/">What I've Learned</a> <a href="../get-connected/index.html">Get Connected</a></p>
+    <p>&nbsp;</p></td>
+  </tr>
+</table><table width="1000">
+  <tr>
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['what-ive-learned']" -->
   <p><a href="../what-ive-learned/tricks-of-the-trade.html">Tricks of the Trade</a></p>
 <!-- TemplateEndIf --><!-- TemplateBeginIf cond="restaurants" -->
       <a href="../restaurants/my-favorites.html">My Favorites</a>
@@ -54,13 +55,13 @@
         <a href="../brands-a-z/second-level/s-z.html">S-Z</a> </p> 
       <!-- TemplateEndIf -->
   </td>
-+    <td><!-- TemplateBeginEditable name="Page Content" -->
+    <td class="content"><!-- TemplateBeginEditable name="Page Content" -->
   <h1>&nbsp;</h1>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
 <!-- TemplateEndEditable --></td>
-+  </tr>
-+</table>
+  </tr>
+</table>
 <p>&nbsp;</p>
 </body>
-+</html>
+</html>
